@@ -21,7 +21,7 @@ public class MainActivityRestar extends AppCompatActivity {
         edNum1 = findViewById(R.id.edNum1);
         edNum2 = findViewById(R.id.edNum2);
         tvResultado = findViewById(R.id.tvResultado);
-        Button btnRestar = findViewById(R.id.btnMultiplicar);
+        Button btnRestar = findViewById(R.id.btnDividir);
 
         btnRestar.setOnClickListener(new View.OnClickListener() {
             @Override

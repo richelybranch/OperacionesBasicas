@@ -20,7 +20,7 @@ public class MainActivityMultiplicar extends AppCompatActivity {
         edNum1 = findViewById(R.id.edNum1);
         edNum2 = findViewById(R.id.edNum2);
         tvResultado = findViewById(R.id.tvResultado);
-        Button btnMultiplicar = findViewById(R.id.btnMultiplicar);
+        Button btnMultiplicar = findViewById(R.id.btnDividir);
 
         btnMultiplicar.setOnClickListener(new View.OnClickListener() {
             @Override

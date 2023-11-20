@@ -14,9 +14,11 @@
         android:theme="@style/Theme.OperacionesBasicas"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".MainActivityMenu"
             android:exported="false" />
-        <!-- Actividad para restar -->
+        <activity
+            android:name=".MainActivityDividir"
+            android:exported="false" />
         <activity
             android:name=".MainActivityRestar"
             android:exported="false"
