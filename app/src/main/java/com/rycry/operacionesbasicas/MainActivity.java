@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_suma);
 
         edNum1 = findViewById(R.id.edNum1);
         edNum2 = findViewById(R.id.edNum2);
