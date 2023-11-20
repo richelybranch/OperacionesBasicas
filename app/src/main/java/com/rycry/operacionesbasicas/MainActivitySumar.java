@@ -20,7 +20,7 @@ public class MainActivitySumar extends AppCompatActivity {
         edNum1 = findViewById(R.id.edNum1);
         edNum2 = findViewById(R.id.edNum2);
         tvResultado = findViewById(R.id.tvResultado);
-        Button btnSumar = findViewById(R.id.btnRestar);
+        Button btnSumar = findViewById(R.id.btnMultiplicar);
 
         btnSumar.setOnClickListener(new View.OnClickListener() {
             @Override
