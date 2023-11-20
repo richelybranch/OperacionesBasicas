@@ -32,14 +32,12 @@ public class MainActivitySumar extends AppCompatActivity {
 
     private void sumarNumeros() {
         try {
-            // Obtener los valores ingresados
             double num1 = Double.parseDouble(edNum1.getText().toString());
             int num2 = Integer.parseInt(edNum2.getText().toString());
             double resultado=num1+num2;
             tvResultado.setText(resultado+"");
 
         } catch (NumberFormatException e) {
-            // Manejar el caso en que la entrada no sea un número válido
             tvResultado.setText(":(");
         }
     }

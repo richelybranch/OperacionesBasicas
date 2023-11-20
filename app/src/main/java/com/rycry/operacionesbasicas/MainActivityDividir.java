@@ -32,22 +32,18 @@ public class MainActivityDividir extends AppCompatActivity {
 
     private void dividirNumeros() {
         try {
-            // Obtener los valores ingresados
+
             double num1 = Double.parseDouble(edNum1.getText().toString());
             double num2 = Double.parseDouble(edNum2.getText().toString());
 
-            // Validar que el divisor no sea cero
             if (num2 != 0) {
-                // Realizar la división
                 double resultado = num1 / num2;
 
-                // Mostrar el resultado en el TextView
                 tvResultado.setText("Resultado: " + resultado);
             } else {
                 tvResultado.setText("No se puede dividir por cero");
             }
         } catch (NumberFormatException e) {
-            // Manejar el caso en que la entrada no sea un número válido
             tvResultado.setText(":(");
         }
     }

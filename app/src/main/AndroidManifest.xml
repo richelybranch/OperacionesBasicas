@@ -13,25 +13,31 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.OperacionesBasicas"
         tools:targetApi="31">
+
+        <!-- Actividad principal (Menú) -->
         <activity
             android:name=".MainActivityMenu"
-            android:exported="false" />
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Otras actividades -->
         <activity
             android:name=".MainActivityDividir"
             android:exported="false" />
         <activity
             android:name=".MainActivityRestar"
             android:exported="false"
-            android:theme="@style/Theme.OperacionesBasicas" /> <!-- Actividad para sumar (actividad principal) -->
+            android:theme="@style/Theme.OperacionesBasicas" />
         <activity
             android:name=".MainActivitySumar"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityMultiplicar"
+            android:exported="false" />
     </application>
 
 </manifest>

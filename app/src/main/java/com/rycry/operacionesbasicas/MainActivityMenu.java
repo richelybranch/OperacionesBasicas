@@ -13,13 +13,12 @@ public class MainActivityMenu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Obtener referencias a los botones del menú
         Button btnMenuSuma = findViewById(R.id.btnMenuSuma);
         Button btnMenuResta = findViewById(R.id.btnMenuResta);
         Button btnMenuMultiplicacion = findViewById(R.id.btnMenuMultiplicacion);
         Button btnMenuDivision = findViewById(R.id.btnMenuDivision);
 
-        // Asignar un OnClickListener a cada botón
+
         btnMenuSuma.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
